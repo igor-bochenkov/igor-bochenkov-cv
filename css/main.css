@@ -211,7 +211,7 @@ a:where([class]) {
 }
 
 body {
-  font-size: clamp(0.875rem, 0.7944214876rem + 0.3305785124vw, 1.125rem);
+  font-size: clamp(1rem, 0.9194214876rem + 0.3305785124vw, 1.25rem);
   position: relative;
   height: 100%;
   background-color: var(--color-background);
@@ -281,7 +281,7 @@ h6,
 }
 
 .title {
-  font-size: 1.75rem;
+  font-size: clamp(1.25rem, 1.0888429752rem + 0.6611570248vw, 1.75rem);
   text-transform: uppercase;
   letter-spacing: 0.1875rem;
   border-bottom: 0.125rem solid var(--color-title);
@@ -541,4 +541,26 @@ a[class] {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.main-title {
+  background-color: var(--color-yellow);
+  text-transform: uppercase;
+  padding-block: 3.75rem;
+  margin-bottom: 3.125rem;
+}
+.main-title__title {
+  font-size: clamp(1.875rem, 1.270661157rem + 2.479338843vw, 3.75rem);
+  font-weight: 600;
+  letter-spacing: 0.625rem;
+  margin-bottom: 1rem;
+}
+.main-title__subtitle {
+  font-size: clamp(1rem, 0.9194214876rem + 0.3305785124vw, 1.25rem);
+  letter-spacing: 0.375rem;
+  font-weight: 500;
+}
+
+.about__title {
+  margin-bottom: 1.875rem;
 }/*# sourceMappingURL=main.css.map */
