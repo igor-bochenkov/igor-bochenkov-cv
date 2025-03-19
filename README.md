@@ -22,13 +22,14 @@
 - Git / GitHub
 - BEM
 - Gulp
-- PhotoShop / Figma
+- Figma
 
 ## Projects
 
 - [Christmas Shop](https://igor-bochenkov.github.io/christmas-shop/)
 - [Shelter](https://igor-bochenkov.github.io/shelter/)
 - [CSS Meme Slider](https://igor-bochenkov.github.io/slider-meme-css/)
+- [Cuda](https://igor-bochenkov.github.io/layout---Cuda/)
 - [Image Gallery](https://igor-bochenkov.github.io/image-gallery/)
 - [Audio player](https://igor-bochenkov.github.io/audio-player)
 - [Arcanoid](https://igor-bochenkov.github.io/arcanoid-game)
@@ -48,3 +49,5 @@
 - **English** - **B1**
 
 ---
+
+https://igor-bochenkov.github.io/igor-bochenkov-cv/
