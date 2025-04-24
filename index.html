@@ -1,363 +1,254 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="format-detection" content="telephone=no" />
-    <title>Igor Bochenkov | CV</title>
-    <meta name="discription" content="" />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="icons/favicon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="icons/favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="icons/favicon/favicon-16x16.png"
-    />
-    <link rel="stylesheet" href="css/main.css" />
-    <!-- <link rel="stylesheet" href="css/main.min.css"> -->
-  </head>
-  <body>
-    <div class="wrapper">
-      <div class="cv">
-        <div class="cv__aside aside-cv">
-          <section class="aside-cv__top">
-            <div
-              class="aside-cv__photo image-bg"
-              data-da=".main-title,767.98,0"
-            >
-              <img class="main-photo" src="img/main-photo.jpg" alt="photo" />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="format-detection" content="telephone=no" />
+  <title>Igor Bochenkov | CV</title>
+  <meta name="discription" content="" />
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon/favicon-16x16.png" />
+  <link rel="stylesheet" href="css/main.css" />
+  <!-- <link rel="stylesheet" href="css/main.min.css"> -->
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="cv">
+      <div class="cv__aside aside-cv">
+        <section class="aside-cv__top">
+          <div class="aside-cv__photo image-bg" data-da=".main-title,767.98,0">
+            <img class="main-photo" src="img/main-photo.jpg" alt="photo" />
+          </div>
+          <div class="aside-cv__info" data-da=".about,767.98,2">
+            <div class="aside-cv__skills skills">
+              <h2 class="skills__title title title--aside">навыки</h2>
+              <div class="skills__items">
+                <ul class="skills__items-col">
+                  <li><span>HTML5</span></li>
+                  <li>
+                    <span>CSS3 / SASS<i>(SCSS)</i></span>
+                  </li>
+                  <li><span>JavaScript</span></li>
+                  <li><span>FlexBox / GRID</span></li>
+                </ul>
+                <ul class="skills__items-col">
+                  <li><span>Git / GitHub</span></li>
+                  <li><span>BEM</span></li>
+                  <li><span>Gulp</span></li>
+                  <li><span>Webpack</span></li>
+                  <li><span>Figma</span></li>
+                </ul>
+              </div>
+              <div class="aside-cv__certificate">
+                <a href="files/certificate_RSS_st0.pdf" target="_blank"><img class="certificate-img"
+                    src="img/certificate.png" alt="certificate" loading="lazy" /></a>
+              </div>
             </div>
-            <div class="aside-cv__info" data-da=".about,767.98,2">
-              <div class="aside-cv__skills skills">
-                <h2 class="skills__title title title--aside">навыки</h2>
-                <div class="skills__items">
-                  <ul class="skills__items-col">
-                    <li><span>HTML5</span></li>
-                    <li>
-                      <span>CSS3 / SASS<i>(SCSS)</i></span>
+          </div>
+        </section>
+
+        <section class="aside-cv__contacts contacts" id="contacts" data-da=".main-cv,767.98,2">
+          <ul class="contacts__body">
+            <li class="contacts__item">
+              <h3 class="contacts__title">Email</h3>
+              <div class="contacts__contact">
+                <a href="mailto:igor.bochenkoff@gmail.com"
+                  class="contacts__link"><span>igor.bochenkoff@gmail.com</span></a>
+              </div>
+            </li>
+            <li class="contacts__item">
+              <h3 class="contacts__title">Telegram</h3>
+              <div class="contacts__contact">
+                <a href="https://t.me/igor_bochenkov" class="contacts__link"
+                  target="_blank"><span>igor_bochenkov</span></a>
+              </div>
+            </li>
+            <li class="contacts__item">
+              <h3 class="contacts__title">Discord</h3>
+              <div class="contacts__contact">
+                <a href="https://discordapp.com/users/1069719337323208794" class="contacts__link"
+                  target="_blank"><span>igorbochenkov</span></a>
+              </div>
+            </li>
+            <li class="contacts__item">
+              <h3 class="contacts__title">GitHub</h3>
+              <div class="contacts__contact">
+                <a href="https://github.com/igor-bochenkov" class="contacts__link"
+                  target="_blank"><span>https://github.com/igor-bochenkov</span></a>
+              </div>
+            </li>
+
+            <li class="contacts__item">
+              <h3 class="contacts__title" id="contacts-title">Location</h3>
+              <p class="contacts__contact">Россия, Великий Новгород</p>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="cv__main main-cv">
+        <header class="main-cv__header header" data-js-header>
+          <div class="header__body">
+            <div class="header__body-inner container">
+              <div class="header__wrapper" data-js-header-wrapper></div>
+              <div class="header__overlay" data-js-header-overlay>
+                <nav class="header__menu">
+                  <ul class="header__menu-list">
+                    <li class="header__menu-item">
+                      <a href="#about" class="header__menu-link"><span>обо мне</span></a>
                     </li>
-                    <li><span>JavaScript</span></li>
-                    <li><span>FlexBox / GRID</span></li>
+                    <li class="header__menu-item">
+                      <a href="#projects" class="header__menu-link"><span>Проекты</span></a>
+                    </li>
+                    <li class="header__menu-item">
+                      <a href="https://github.com/igor-bochenkov" class="header__menu-link"
+                        target="_blank"><span>github</span></a>
+                    </li>
+                    <li class="header__menu-item">
+                      <a href="#contacts" class="header__menu-link"><span>Контакты</span></a>
+                    </li>
                   </ul>
-                  <ul class="skills__items-col">
-                    <li><span>Git / GitHub</span></li>
-                    <li><span>BEM</span></li>
-                    <li><span>Gulp</span></li>
-                    <li><span>Figma</span></li>
-                  </ul>
-                </div>
-                <div class="aside-cv__certificate">
-                  <a href="files/certificate_RSS_st0.pdf" target="_blank"
-                    ><img
-                      class="certificate-img"
-                      src="img/certificate.png"
-                      alt="certificate"
-                      loading="lazy"
-                  /></a>
-                </div>
+                </nav>
               </div>
+              <button class="header__burger-button burger-button visible-mobile" type="button" aria-label="Open menu"
+                title="Open menu" data-js-header-burger-button>
+                <span class="burger-button__line"></span>
+                <span class="burger-button__line"></span>
+                <span class="burger-button__line"></span>
+              </button>
             </div>
-          </section>
-
-          <section
-            class="aside-cv__contacts contacts"
-            id="contacts"
-            data-da=".main-cv,767.98,2"
-          >
-            <ul class="contacts__body">
-              <li class="contacts__item">
-                <h3 class="contacts__title">Email</h3>
-                <div class="contacts__contact">
-                  <a
-                    href="mailto:igor.bochenkoff@gmail.com"
-                    class="contacts__link"
-                    ><span>igor.bochenkoff@gmail.com</span></a
-                  >
-                </div>
-              </li>
-              <li class="contacts__item">
-                <h3 class="contacts__title">Telegram</h3>
-                <div class="contacts__contact">
-                  <a
-                    href="https://t.me/igor_bochenkov"
-                    class="contacts__link"
-                    target="_blank"
-                    ><span>igor_bochenkov</span></a
-                  >
-                </div>
-              </li>
-              <li class="contacts__item">
-                <h3 class="contacts__title">Discord</h3>
-                <div class="contacts__contact">
-                  <a
-                    href="https://discordapp.com/users/1069719337323208794"
-                    class="contacts__link"
-                    target="_blank"
-                    ><span>igorbochenkov</span></a
-                  >
-                </div>
-              </li>
-              <li class="contacts__item">
-                <h3 class="contacts__title">GitHub</h3>
-                <div class="contacts__contact">
-                  <a
-                    href="https://github.com/igor-bochenkov"
-                    class="contacts__link"
-                    target="_blank"
-                    ><span>https://github.com/igor-bochenkov</span></a
-                  >
-                </div>
-              </li>
-
-              <li class="contacts__item">
-                <h3 class="contacts__title" id="contacts-title">Location</h3>
-                <p class="contacts__contact">Россия, Великий Новгород</p>
-              </li>
-            </ul>
-          </section>
-        </div>
-        <div class="cv__main main-cv">
-          <header class="main-cv__header header" data-js-header>
-            <div class="header__body">
-              <div class="header__body-inner container">
-                <div class="header__wrapper" data-js-header-wrapper></div>
-                <div class="header__overlay" data-js-header-overlay>
-                  <nav class="header__menu">
-                    <ul class="header__menu-list">
-                      <li class="header__menu-item">
-                        <a href="#about" class="header__menu-link"
-                          ><span>обо мне</span></a
-                        >
-                      </li>
-                      <li class="header__menu-item">
-                        <a href="#projects" class="header__menu-link"
-                          ><span>Проекты</span></a
-                        >
-                      </li>
-                      <li class="header__menu-item">
-                        <a
-                          href="https://github.com/igor-bochenkov"
-                          class="header__menu-link"
-                          target="_blank"
-                          ><span>github</span></a
-                        >
-                      </li>
-                      <li class="header__menu-item">
-                        <a href="#contacts" class="header__menu-link"
-                          ><span>Контакты</span></a
-                        >
-                      </li>
-                    </ul>
-                  </nav>
-                </div>
-                <button
-                  class="header__burger-button burger-button visible-mobile"
-                  type="button"
-                  aria-label="Open menu"
-                  title="Open menu"
-                  data-js-header-burger-button
-                >
-                  <span class="burger-button__line"></span>
-                  <span class="burger-button__line"></span>
-                  <span class="burger-button__line"></span>
-                </button>
-              </div>
-            </div>
-          </header>
-          <main class="main-cv__main main-page">
-            <section
-              class="main-page__title main-title"
-              aria-labelledby="main-title"
-            >
-              <div class="main-title__container container">
-                <h1 class="main-title__title" id="main-title">
-                  Игорь Боченков
-                </h1>
-                <p class="main-title__subtitle">
-                  веб-верстальщик / Фронтенд-разработчик
-                </p>
-              </div>
-            </section>
-            <section
-              id="about"
-              class="main-page__about about"
-              aria-labelledby="about-title"
-            >
-              <div class="about__container container">
-                <div class="about__content">
-                  <h2 class="about__title title" id="about-title">обо мне</h2>
-                  <p>
-                    Я начинающий фронтенд-разработчик. Интересуюсь сферой IT и
-                    самостоятельно обучаюсь необходимому стеку технологий. Имею
-                    навык адапривной оптимизированной кроссбраузерной вёрски
-                    сайтов.
-                  </p>
-                </div>
-              </div>
-            </section>
-            <section
-              id="projects"
-              class="main-page__projects projects"
-              aria-labelledby="projects-title"
-            >
-              <div class="projects__container container">
-                <h2 class="projects__title title" id="projects-title">
-                  Мои проекты
-                </h2>
-                <div class="projects__row">
-                  <div class="projects__column">
-                    <a
-                      href="https://igor-bochenkov.github.io/christmas-shop/"
-                      class="projects__card card-project"
-                      target="_blank"
-                    >
-                      <div class="card-project__preview image-bg">
-                        <img
-                          class="card-project__img"
-                          src="img/projects/01-christmas_shop.png"
-                          alt="Christmas Shop"
-                        />
-                      </div>
-                      <div class="card-project__description">
-                        <h3 class="card-project__title">Christmas Shop</h3>
-                        <p class="card-project__subtitle">Landing page</p>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="projects__column">
-                    <a
-                      href="https://igor-bochenkov.github.io/shelter/"
-                      class="projects__card card-project"
-                      target="_blank"
-                    >
-                      <div class="card-project__preview image-bg">
-                        <img
-                          class="card-project__img"
-                          src="img/projects/02-shelter.png"
-                          alt="Shelter"
-                        />
-                      </div>
-                      <div class="card-project__description">
-                        <h3 class="card-project__title">Shelter</h3>
-                        <p class="card-project__subtitle">Landing page</p>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="projects__column">
-                    <a
-                      href="https://igor-bochenkov.github.io/image-gallery/"
-                      class="projects__card card-project"
-                      target="_blank"
-                    >
-                      <div class="card-project__preview image-bg">
-                        <img
-                          class="card-project__img"
-                          src="img/projects/js-image-gallery.png"
-                          alt="Image Gallery"
-                        />
-                      </div>
-                      <div class="card-project__description">
-                        <h3 class="card-project__title">Image Gallery</h3>
-                        <p class="card-project__subtitle">
-                          Поиск по фото, полученным от API
-                        </p>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="projects__column">
-                    <a
-                      href="https://igor-bochenkov.github.io/audio-player"
-                      class="projects__card card-project"
-                      target="_blank"
-                    >
-                      <div class="card-project__preview image-bg">
-                        <img
-                          class="card-project__img"
-                          src="img/projects/js-audio-player.png"
-                          alt="Audio player"
-                        />
-                      </div>
-                      <div class="card-project__description">
-                        <h3 class="card-project__title">Audio player</h3>
-                        <p class="card-project__subtitle">
-                          кастомный аудиоплеер
-                        </p>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="projects__column">
-                    <a
-                      href="https://igor-bochenkov.github.io/arcanoid-game"
-                      class="projects__card card-project"
-                      target="_blank"
-                    >
-                      <div class="card-project__preview image-bg">
-                        <img
-                          class="card-project__img"
-                          src="img/projects/js-arcanoid.png"
-                          alt="Arcanoid"
-                        />
-                      </div>
-                      <div class="card-project__description">
-                        <h3 class="card-project__title">Arcanoid</h3>
-                        <p class="card-project__subtitle">игра на canvas</p>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="projects__column">
-                    <a
-                      href="https://igor-bochenkov.github.io/slider-meme-css/"
-                      class="projects__card card-project"
-                      target="_blank"
-                    >
-                      <div class="card-project__preview image-bg">
-                        <img
-                          class="card-project__img"
-                          src="img/projects/03-meme-slider.png"
-                          alt="CSS Meme Slider"
-                        />
-                      </div>
-                      <div class="card-project__description">
-                        <h3 class="card-project__title">CSS Meme Slider</h3>
-                        <p class="card-project__subtitle">
-                          Слайдер с мемами на чистом CSS
-                        </p>
-                      </div>
-                    </a>
-                  </div>
-                  <a
-                    href="https://igor-bochenkov.github.io/"
-                    class="projects__button btn"
-                    target="_blank"
-                    >Посмотреть все проекты</a
-                  >
-                </div>
-              </div>
-            </section>
-          </main>
-          <footer class="main-cv__footer footer" id="footer">
-            <div class="footer__inner container">
-              <p class="footer__copyright">
-                © Igor Bochenkov, <time datetime="2025">2025</time>
+          </div>
+        </header>
+        <main class="main-cv__main main-page">
+          <section class="main-page__title main-title" aria-labelledby="main-title">
+            <div class="main-title__container container">
+              <h1 class="main-title__title" id="main-title">
+                Игорь Боченков
+              </h1>
+              <p class="main-title__subtitle">
+                веб-верстальщик / Фронтенд-разработчик
               </p>
             </div>
-          </footer>
-          <button class="arrow-up is-hide">
-            <img src="icons/arrow-up.svg" alt="arrow-up" />
-          </button>
-        </div>
+          </section>
+          <section id="about" class="main-page__about about" aria-labelledby="about-title">
+            <div class="about__container container">
+              <div class="about__content">
+                <h2 class="about__title title" id="about-title">обо мне</h2>
+                <p>
+                  Я начинающий фронтенд-разработчик. Интересуюсь сферой IT и
+                  самостоятельно обучаюсь необходимому стеку технологий. Имею
+                  навык адапривной оптимизированной кроссбраузерной вёрски
+                  сайтов.
+                </p>
+              </div>
+            </div>
+          </section>
+          <section id="projects" class="main-page__projects projects" aria-labelledby="projects-title">
+            <div class="projects__container container">
+              <h2 class="projects__title title" id="projects-title">
+                Мои проекты
+              </h2>
+              <div class="projects__row">
+                <div class="projects__column">
+                  <a href="https://igor-bochenkov.github.io/christmas-shop/" class="projects__card card-project"
+                    target="_blank">
+                    <div class="card-project__preview image-bg">
+                      <img class="card-project__img" src="img/projects/01-christmas_shop.png" alt="Christmas Shop" />
+                    </div>
+                    <div class="card-project__description">
+                      <h3 class="card-project__title">Christmas Shop</h3>
+                      <p class="card-project__subtitle">Landing page</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="projects__column">
+                  <a href="https://igor-bochenkov.github.io/shelter/" class="projects__card card-project"
+                    target="_blank">
+                    <div class="card-project__preview image-bg">
+                      <img class="card-project__img" src="img/projects/02-shelter.png" alt="Shelter" />
+                    </div>
+                    <div class="card-project__description">
+                      <h3 class="card-project__title">Shelter</h3>
+                      <p class="card-project__subtitle">Landing page</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="projects__column">
+                  <a href="https://igor-bochenkov.github.io/image-gallery/" class="projects__card card-project"
+                    target="_blank">
+                    <div class="card-project__preview image-bg">
+                      <img class="card-project__img" src="img/projects/js-image-gallery.png" alt="Image Gallery" />
+                    </div>
+                    <div class="card-project__description">
+                      <h3 class="card-project__title">Image Gallery</h3>
+                      <p class="card-project__subtitle">
+                        Поиск по фото, полученным от API
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="projects__column">
+                  <a href="https://igor-bochenkov.github.io/audio-player" class="projects__card card-project"
+                    target="_blank">
+                    <div class="card-project__preview image-bg">
+                      <img class="card-project__img" src="img/projects/js-audio-player.png" alt="Audio player" />
+                    </div>
+                    <div class="card-project__description">
+                      <h3 class="card-project__title">Audio player</h3>
+                      <p class="card-project__subtitle">
+                        кастомный аудиоплеер
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="projects__column">
+                  <a href="https://igor-bochenkov.github.io/arcanoid-game" class="projects__card card-project"
+                    target="_blank">
+                    <div class="card-project__preview image-bg">
+                      <img class="card-project__img" src="img/projects/js-arcanoid.png" alt="Arcanoid" />
+                    </div>
+                    <div class="card-project__description">
+                      <h3 class="card-project__title">Arcanoid</h3>
+                      <p class="card-project__subtitle">игра на canvas</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="projects__column">
+                  <a href="https://igor-bochenkov.github.io/slider-meme-css/" class="projects__card card-project"
+                    target="_blank">
+                    <div class="card-project__preview image-bg">
+                      <img class="card-project__img" src="img/projects/03-meme-slider.png" alt="CSS Meme Slider" />
+                    </div>
+                    <div class="card-project__description">
+                      <h3 class="card-project__title">CSS Meme Slider</h3>
+                      <p class="card-project__subtitle">
+                        Слайдер с мемами на чистом CSS
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <a href="https://igor-bochenkov.github.io/" class="projects__button btn" target="_blank">Посмотреть все
+                  проекты</a>
+              </div>
+            </div>
+          </section>
+        </main>
+        <footer class="main-cv__footer footer" id="footer">
+          <div class="footer__inner container">
+            <p class="footer__copyright">
+              © Igor Bochenkov, <time datetime="2025">2025</time>
+            </p>
+          </div>
+        </footer>
+        <button class="arrow-up is-hide">
+          <img src="icons/arrow-up.svg" alt="arrow-up" />
+        </button>
       </div>
     </div>
-    <script src="./scripts/main.js" type="module"></script>
-  </body>
+  </div>
+  <script src="./scripts/main.js" type="module"></script>
+</body>
+
 </html>

@@ -24,6 +24,7 @@
 - Git / GitHub
 - BEM
 - Gulp
+- Webpack
 - Figma
 
 ## Projects

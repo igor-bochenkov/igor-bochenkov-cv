@@ -7,5 +7,3 @@ imageBG();
 burger();
 da.init();
 buttonUp(767.98, ".arrow-up");
-//.arrow-up
-//767.98
